@@ -1,6 +1,5 @@
 import random
 import time
-from pprint import pprint
 
 import requests
 from bs4 import BeautifulSoup
@@ -152,8 +151,6 @@ class HHParser:
                 "data": f"ссылка на вакансию; {comment}, Имя контакта; {name}, email контакта; {email}, "
                         f"телефон контакта; {None}, Адрес вакансии или город: {city}"
             }
-            pprint(first_hoock)
-            pprint(last_hoock)
             # requests.post(self.last_hoock_url, json=last_hoock)
             # time.sleep(1)
 
